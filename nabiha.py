@@ -12,3 +12,15 @@ total = amountofsavings+amountofrent+amountofelectricity
 remainder = salary - total
 yearlycost = (amountofsavings+amountofelectricity)*12
 power2 = salary**2
+
+additional = 50
+left = additional/amountofsavings
+
+print("Savings: " + amountofsavings)
+print("Electricity: " + amountofelectricity)
+print("Rent: " + amountofrent)
+print("Total: " + total)
+print("Remainder: " + remainder)
+print("YearlyCost: " + yearlycost)
+print("Power2: " + power2)
+print("Left: " + left)
