@@ -5,8 +5,8 @@ rent = int(input('Enter amount of rent (in percentage) \n'))
 electricity = int(input('Enter amount of electricity (in percentage) \n'))
 
 amountofsavings = salary*savings/100
-amountofrent = rent*savings/100
-amountofelectricity = electricity*savings/100
+amountofrent = rent*salary/100
+amountofelectricity = electricity*salary/100
 
 total = amountofsavings+amountofrent+amountofelectricity
 remainder = salary - total
@@ -16,11 +16,11 @@ power2 = salary**2
 additional = 50
 left = additional/amountofsavings
 
-print("Savings: " + amountofsavings)
-print("Electricity: " + amountofelectricity)
-print("Rent: " + amountofrent)
-print("Total: " + total)
-print("Remainder: " + remainder)
-print("YearlyCost: " + yearlycost)
-print("Power2: " + power2)
-print("Left: " + left)
+print("Savings: " + str(amountofsavings))
+print("Electricity: " + str(amountofelectricity))
+print("Rent: " + str(amountofrent))
+print("Total: " + str(total))
+print("Remainder: " + str(remainder))
+print("YearlyCost: " + str(yearlycost))
+print("Power2: " + str(power2))
+print("Left: " + str(left))
