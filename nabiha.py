@@ -14,7 +14,8 @@ yearlycost = (amountofsavings+amountofelectricity)*12
 power2 = salary**2
 
 additional = 50
-left = additional/amountofsavings
+left = additional+remainder
+
 
 print("Savings: " + str(amountofsavings))
 print("Electricity: " + str(amountofelectricity))
